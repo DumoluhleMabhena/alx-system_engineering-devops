@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "ibase=`echo ${water:-0} | wc -c`-1;obase=`echo ${bestchol:-0} | wc -c`-1;${water:-0}+${stir:-0}" | dc
